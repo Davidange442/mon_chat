@@ -1,0 +1,10 @@
+# Dépendances Node pour les deux dossiers
+monchat/node_modules/
+backend/node_modules/
+
+# Fichiers de configuration et de cache
+backend/.env
+.DS_Store
+dist/
+build/
+.cache/
