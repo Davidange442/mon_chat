@@ -20,7 +20,7 @@ const App = () => {
         setIsTyping(true);
         try {
             // Fait une requête POST vers le serveur Express local.
-            const response = await fetch('http://localhost:5000/api/chat', {
+            const response = await fetch('https://mon-chat-3fcv.vercel.app/api/chat',{
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: query }),

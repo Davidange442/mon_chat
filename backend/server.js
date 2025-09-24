@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Middleware pour gérer les requêtes
-app.use(cors());
+app.use(cors({origin:'https://mon-chat.vercel.app'}));
 app.use(express.json()); // Permet d'analyser les corps de requête au format JSON
 
 // Importer les routes de l'API
