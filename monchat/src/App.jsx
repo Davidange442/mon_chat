@@ -66,7 +66,7 @@ const App = () => {
 
     // Style de l'arrière-plan de l'application.
     const backgroundStyle = {
-      backgroundImage:"url('./public/arriere plan.jpg')",
+      backgroundImage:"url('/arriere plan.jpg')",
     };
 
     // Le rendu visuel de l'application (JSX).
